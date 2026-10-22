@@ -1,0 +1,23 @@
+build/
+*.user
+.vs/
+
+# Generated build files
+build/
+cmake-build-*/
+out/
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# Local Windows shortcuts
+*.lnk
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
